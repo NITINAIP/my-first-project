@@ -1,0 +1,11 @@
+<p>page2 works!</p>
+{{this.selectedId}}
+||
+{{ (this._route$.paramMap | async)?.get('id') }}
+||
+{{ (this._route$.paramMap | async) | json}}
+||
+{{ (this._route$.queryParams | async) | json}}
+
+
+<router-outlet></router-outlet>
