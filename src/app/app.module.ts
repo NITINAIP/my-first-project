@@ -7,10 +7,8 @@ import { Page1Component } from './page1/page1.component';
 import { Page2Component } from './page2/page2.component';
 import { ErrorComponent } from './error/error.component';
 import { Page2ByIdComponent } from './page2-by-id/page2-by-id.component';
-import { CommonModule } from '@angular/common';
-import { HttpClientModule } from '@angular/common/http';
-import { ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './login/login.component';
+import { CoreModule } from './core';
 
 @NgModule({
   declarations: [
@@ -24,9 +22,7 @@ import { LoginComponent } from './login/login.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CommonModule,
-    ReactiveFormsModule,
-    HttpClientModule
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
