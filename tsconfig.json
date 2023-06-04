@@ -21,7 +21,7 @@
     "useDefineForClassFields": false,
     "paths": {
       "@shared/*": ["app/shared/*"],
-      "@env": ["environments/environment"],
+      "@env": ["src/environments/environment.ts"],
     },
     "lib": [
       "ES2022",
